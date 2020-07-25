@@ -41,9 +41,9 @@ Possible reasons for doing this might be...
 
 Saving the current state can be done like this (from the example sketch)...
 
-    uint8_t buf[SX1503_SERIALIZE_SIZE];
-    uint8_t written = sx1503.serialize(buf, SX1503_SERIALIZE_SIZE);
-    if (SX1503_SERIALIZE_SIZE == written) {
+    uint8_t buf[ADG2128_SERIALIZE_SIZE];
+    uint8_t written = adg2128.serialize(buf, ADG2128_SERIALIZE_SIZE);
+    if (ADG2128_SERIALIZE_SIZE == written) {
       // Everything worked. Do what you will with the buffer.
     }
 
